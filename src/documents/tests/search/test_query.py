@@ -615,6 +615,28 @@ class TestNormalizeQuery:
     def test_normalize_no_commas_unchanged(self) -> None:
         assert normalize_query("bank statement") == "bank statement"
 
+    def test_normalize_expands_multi_value_id_fields(self) -> None:
+        # tag_id and viewer_id were KEYWORD(commas=True) in Whoosh too.
+        assert normalize_query("tag_id:1,2") == "tag_id:1 AND tag_id:2"
+        assert normalize_query("viewer_id:5,6") == "viewer_id:5 AND viewer_id:6"
+
+    @pytest.mark.parametrize(
+        "query",
+        [
+            pytest.param("http://example.com/a,b", id="url_with_comma"),
+            pytest.param("title:10,20", id="non_multivalue_field"),
+            pytest.param("correspondent:foo,bar", id="text_field_not_comma_split"),
+            pytest.param("content:a,b,c", id="content_field"),
+        ],
+    )
+    def test_normalize_does_not_expand_non_multi_value_fields(
+        self,
+        query: str,
+    ) -> None:
+        # Only true multi-value fields (tag/tag_id/viewer_id) comma-split, matching
+        # Whoosh's KEYWORD(commas=True) set. Everything else passes through verbatim.
+        assert normalize_query(query) == query
+
     @pytest.mark.parametrize(
         ("raw", "expected"),
         [

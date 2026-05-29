@@ -468,8 +468,13 @@ def normalize_query(query: str) -> str:
         return " AND ".join(f"{field}:{v}" for v in values)
 
     try:
+        # Only true multi-value fields are comma-split, matching Whoosh's
+        # KEYWORD(commas=True) fields (tag, tag_id, viewer_id). A field-agnostic
+        # match would corrupt unrelated text such as URLs (http://x/a,b) or
+        # numeric values (title:10,20). tag_id is ordered before tag so the
+        # longer field name wins.
         query = regex.sub(
-            r"(\w+):([^\s\[\]]+(?:,[^\s\[\]]+)+)",
+            r"(?<!\w)(tag_id|viewer_id|tag):([^\s\[\]]+(?:,[^\s\[\]]+)+)",
             _expand,
             query,
             timeout=_REGEX_TIMEOUT,
