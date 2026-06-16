@@ -4,8 +4,7 @@ import httpx
 from celery import shared_task
 from django.conf import settings
 
-from paperless.network import PinnedHostHTTPTransport
-from paperless.network import validate_outbound_http_url
+from paperless.network import make_pinned_transport
 
 logger = logging.getLogger("paperless.workflows.webhooks")
 
@@ -25,20 +24,19 @@ def send_webhook(
     as_json: bool = False,
 ):
     try:
-        validate_outbound_http_url(
+        # Internal-address checks happen in the transport (per-request) to preserve
+        # ConnectError behavior, so the upfront validation allows internal here and
+        # the transport pins per the configured WEBHOOKS_ALLOW_INTERNAL_REQUESTS flag.
+        transport = make_pinned_transport(
             url,
             allowed_schemes=settings.WEBHOOKS_ALLOWED_SCHEMES,
             allowed_ports=settings.WEBHOOKS_ALLOWED_PORTS,
-            # Internal-address checks happen in transport to preserve ConnectError behavior.
-            allow_internal=True,
+            allow_internal=settings.WEBHOOKS_ALLOW_INTERNAL_REQUESTS,
+            defer_internal_check_to_transport=True,
         )
     except ValueError as e:
         logger.warning("Webhook blocked: %s", e)
         raise
-
-    transport = PinnedHostHTTPTransport(
-        allow_internal=settings.WEBHOOKS_ALLOW_INTERNAL_REQUESTS,
-    )
 
     try:
         post_args = {

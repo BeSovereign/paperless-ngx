@@ -170,15 +170,94 @@ class PinnedHostAsyncHTTPTransport(httpx.AsyncHTTPTransport):
         return await super().handle_async_request(request)
 
 
+def _validate_and_resolve_allow_internal(
+    url: str,
+    *,
+    allowed_schemes: Collection[str],
+    allowed_ports: Collection[int] | None,
+    allow_internal: bool,
+    defer_internal_check_to_transport: bool,
+) -> bool:
+    """Validate ``url`` against outbound policy and return the ``allow_internal``
+    flag the pinned transport should enforce per request.
+
+    The "is a non-public/internal address allowed" decision has two enforcement
+    layers, normally driven by the same ``allow_internal`` value:
+
+    * **upfront**, in ``validate_outbound_http_url`` — fails fast with ``ValueError``;
+    * **per-request**, in the pinned transport — fails with ``httpx.ConnectError``.
+
+    Set ``defer_internal_check_to_transport=True`` to skip *only* the upfront
+    internal-address check (scheme and port are still validated) and let the
+    transport be the sole enforcer. Webhooks use this so a blocked internal target
+    surfaces as a retryable ``ConnectError`` rather than a ``ValueError``.
+
+    This is the single chokepoint pairing URL validation with pinned-transport
+    construction: code outside this module must use the ``make_pinned_*`` /
+    ``create_pinned_*`` factories and must NOT construct ``PinnedHost*Transport``
+    (or a plain ``httpx`` client) directly for a user-influenced URL.
+    """
+    validate_outbound_http_url(
+        url,
+        allowed_schemes=allowed_schemes,
+        allowed_ports=allowed_ports,
+        allow_internal=allow_internal or defer_internal_check_to_transport,
+    )
+    return allow_internal
+
+
+def make_pinned_transport(
+    url: str,
+    *,
+    allowed_schemes: Collection[str] = ("http", "https"),
+    allowed_ports: Collection[int] | None = None,
+    allow_internal: bool = False,
+    defer_internal_check_to_transport: bool = False,
+) -> PinnedHostHTTPTransport:
+    """Validate ``url`` and return a sync pinned transport.
+
+    See :func:`_validate_and_resolve_allow_internal` for ``allow_internal`` and
+    ``defer_internal_check_to_transport``.
+    """
+    return PinnedHostHTTPTransport(
+        allow_internal=_validate_and_resolve_allow_internal(
+            url,
+            allowed_schemes=allowed_schemes,
+            allowed_ports=allowed_ports,
+            allow_internal=allow_internal,
+            defer_internal_check_to_transport=defer_internal_check_to_transport,
+        ),
+    )
+
+
+def make_pinned_async_transport(
+    url: str,
+    *,
+    allowed_schemes: Collection[str] = ("http", "https"),
+    allowed_ports: Collection[int] | None = None,
+    allow_internal: bool = False,
+    defer_internal_check_to_transport: bool = False,
+) -> PinnedHostAsyncHTTPTransport:
+    """Async counterpart of :func:`make_pinned_transport`."""
+    return PinnedHostAsyncHTTPTransport(
+        allow_internal=_validate_and_resolve_allow_internal(
+            url,
+            allowed_schemes=allowed_schemes,
+            allowed_ports=allowed_ports,
+            allow_internal=allow_internal,
+            defer_internal_check_to_transport=defer_internal_check_to_transport,
+        ),
+    )
+
+
 def create_pinned_httpx_client(
     url: str,
     *,
     allow_internal: bool = False,
     **kwargs,
 ) -> httpx.Client:
-    validate_outbound_http_url(url, allow_internal=allow_internal)
     return httpx.Client(
-        transport=PinnedHostHTTPTransport(allow_internal=allow_internal),
+        transport=make_pinned_transport(url, allow_internal=allow_internal),
         **kwargs,
     )
 
@@ -189,8 +268,7 @@ def create_pinned_async_httpx_client(
     allow_internal: bool = False,
     **kwargs,
 ) -> httpx.AsyncClient:
-    validate_outbound_http_url(url, allow_internal=allow_internal)
     return httpx.AsyncClient(
-        transport=PinnedHostAsyncHTTPTransport(allow_internal=allow_internal),
+        transport=make_pinned_async_transport(url, allow_internal=allow_internal),
         **kwargs,
     )

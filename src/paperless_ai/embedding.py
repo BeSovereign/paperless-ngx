@@ -10,11 +10,10 @@ from documents.models import Document
 from documents.models import Note
 from paperless.config import AIConfig
 from paperless.models import LLMEmbeddingBackend
-from paperless.network import PinnedHostAsyncHTTPTransport
-from paperless.network import PinnedHostHTTPTransport
 from paperless.network import create_pinned_async_httpx_client
 from paperless.network import create_pinned_httpx_client
-from paperless.network import validate_outbound_http_url
+from paperless.network import make_pinned_async_transport
+from paperless.network import make_pinned_transport
 
 OCR_LEADER_REGEX = re.compile(r"[._\-\u00b7]{4,}")
 HORIZONTAL_WHITESPACE_REGEX = re.compile(r"[ \t\u00a0]+")
@@ -62,10 +61,6 @@ def get_embedding_model(config: AIConfig) -> "BaseEmbedding":
                 or config.llm_endpoint
                 or "http://localhost:11434"
             )
-            validate_outbound_http_url(
-                endpoint,
-                allow_internal=config.llm_allow_internal_endpoints,
-            )
             embedding = OllamaEmbedding(
                 model_name=config.llm_embedding_model or "embeddinggemma",
                 base_url=endpoint,
@@ -73,13 +68,15 @@ def get_embedding_model(config: AIConfig) -> "BaseEmbedding":
             )
             embedding._client = Client(
                 host=endpoint,
-                transport=PinnedHostHTTPTransport(
+                transport=make_pinned_transport(
+                    endpoint,
                     allow_internal=config.llm_allow_internal_endpoints,
                 ),
             )
             embedding._async_client = AsyncClient(
                 host=endpoint,
-                transport=PinnedHostAsyncHTTPTransport(
+                transport=make_pinned_async_transport(
+                    endpoint,
                     allow_internal=config.llm_allow_internal_endpoints,
                 ),
             )

@@ -10,11 +10,10 @@ if TYPE_CHECKING:
     from llama_index.llms.openai_like import OpenAILike
 
 from paperless.config import AIConfig
-from paperless.network import PinnedHostAsyncHTTPTransport
-from paperless.network import PinnedHostHTTPTransport
 from paperless.network import create_pinned_async_httpx_client
 from paperless.network import create_pinned_httpx_client
-from paperless.network import validate_outbound_http_url
+from paperless.network import make_pinned_async_transport
+from paperless.network import make_pinned_transport
 from paperless_ai.base_model import DocumentClassifierSchema
 
 logger = logging.getLogger("paperless_ai.client")
@@ -47,14 +46,12 @@ class AIClient:
             from ollama import Client
 
             endpoint = self.settings.llm_endpoint or "http://localhost:11434"
-            validate_outbound_http_url(
+            transport = make_pinned_transport(
                 endpoint,
                 allow_internal=self.settings.llm_allow_internal_endpoints,
             )
-            transport = PinnedHostHTTPTransport(
-                allow_internal=self.settings.llm_allow_internal_endpoints,
-            )
-            async_transport = PinnedHostAsyncHTTPTransport(
+            async_transport = make_pinned_async_transport(
+                endpoint,
                 allow_internal=self.settings.llm_allow_internal_endpoints,
             )
             return Ollama(
