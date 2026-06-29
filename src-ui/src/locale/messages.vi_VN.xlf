@@ -5,7 +5,7 @@
       <trans-unit id="ngb.alert.close" datatype="html" approved="yes">
         <source>Close</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/alert/alert.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/alert/alert.ts</context>
           <context context-type="linenumber">50</context>
         </context-group>
         <target state="final">Đóng</target>
@@ -13,7 +13,7 @@
       <trans-unit id="ngb.carousel.slide-number" datatype="html" approved="yes">
         <source> Slide <x id="INTERPOLATION" equiv-text="ueryList&lt;NgbSli"/> of <x id="INTERPOLATION_1" equiv-text="EventSource = N"/> </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/carousel/carousel.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/carousel/carousel.ts</context>
           <context context-type="linenumber">131,135</context>
         </context-group>
         <note priority="1" from="description">Currently selected slide number read by screen reader</note>
@@ -22,7 +22,7 @@
       <trans-unit id="ngb.carousel.previous" datatype="html" approved="yes">
         <source>Previous</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/carousel/carousel.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/carousel/carousel.ts</context>
           <context context-type="linenumber">159,162</context>
         </context-group>
         <target state="final">Trước</target>
@@ -30,7 +30,7 @@
       <trans-unit id="ngb.carousel.next" datatype="html" approved="yes">
         <source>Next</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/carousel/carousel.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/carousel/carousel.ts</context>
           <context context-type="linenumber">202,203</context>
         </context-group>
         <target state="final">Tiếp</target>
@@ -38,11 +38,11 @@
       <trans-unit id="ngb.datepicker.select-month" datatype="html" approved="yes">
         <source>Select month</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
           <context context-type="linenumber">91</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
           <context context-type="linenumber">91</context>
         </context-group>
         <target state="final">Chọn tháng</target>
@@ -50,11 +50,11 @@
       <trans-unit id="ngb.datepicker.select-year" datatype="html" approved="yes">
         <source>Select year</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
           <context context-type="linenumber">91</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/datepicker/datepicker-navigation-select.ts</context>
           <context context-type="linenumber">91</context>
         </context-group>
         <target state="final">Chọn năm</target>
@@ -62,11 +62,11 @@
       <trans-unit id="ngb.datepicker.previous-month" datatype="html" approved="yes">
         <source>Previous month</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/datepicker/datepicker-navigation.ts</context>
           <context context-type="linenumber">83,85</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/datepicker/datepicker-navigation.ts</context>
           <context context-type="linenumber">112</context>
         </context-group>
         <target state="final">Tháng trước</target>
@@ -74,11 +74,11 @@
       <trans-unit id="ngb.datepicker.next-month" datatype="html" approved="yes">
         <source>Next month</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/datepicker/datepicker-navigation.ts</context>
           <context context-type="linenumber">112</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/datepicker/datepicker-navigation.ts</context>
           <context context-type="linenumber">112</context>
         </context-group>
         <target state="final">Tháng sau</target>
@@ -86,7 +86,7 @@
       <trans-unit id="ngb.pagination.first" datatype="html" approved="yes">
         <source>««</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/pagination/pagination-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/pagination/pagination-config.ts</context>
           <context context-type="linenumber">20</context>
         </context-group>
         <target state="final">««</target>
@@ -94,7 +94,7 @@
       <trans-unit id="ngb.pagination.previous" datatype="html" approved="yes">
         <source>«</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/pagination/pagination-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/pagination/pagination-config.ts</context>
           <context context-type="linenumber">20</context>
         </context-group>
         <target state="final">«</target>
@@ -102,7 +102,7 @@
       <trans-unit id="ngb.pagination.next" datatype="html" approved="yes">
         <source>»</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/pagination/pagination-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/pagination/pagination-config.ts</context>
           <context context-type="linenumber">20</context>
         </context-group>
         <target state="final">»</target>
@@ -110,7 +110,7 @@
       <trans-unit id="ngb.pagination.last" datatype="html" approved="yes">
         <source>»»</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/pagination/pagination-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/pagination/pagination-config.ts</context>
           <context context-type="linenumber">20</context>
         </context-group>
         <target state="final">»»</target>
@@ -118,7 +118,7 @@
       <trans-unit id="ngb.pagination.first-aria" datatype="html" approved="yes">
         <source>First</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/pagination/pagination-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/pagination/pagination-config.ts</context>
           <context context-type="linenumber">20</context>
         </context-group>
         <target state="final">Trang đầu</target>
@@ -126,7 +126,7 @@
       <trans-unit id="ngb.pagination.previous-aria" datatype="html" approved="yes">
         <source>Previous</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/pagination/pagination-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/pagination/pagination-config.ts</context>
           <context context-type="linenumber">20</context>
         </context-group>
         <target state="final">Trước</target>
@@ -134,7 +134,7 @@
       <trans-unit id="ngb.pagination.next-aria" datatype="html" approved="yes">
         <source>Next</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/pagination/pagination-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/pagination/pagination-config.ts</context>
           <context context-type="linenumber">20</context>
         </context-group>
         <target state="final">Tiếp</target>
@@ -142,7 +142,7 @@
       <trans-unit id="ngb.pagination.last-aria" datatype="html" approved="yes">
         <source>Last</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/pagination/pagination-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/pagination/pagination-config.ts</context>
           <context context-type="linenumber">20</context>
         </context-group>
         <target state="final">Cuối cùng</target>
@@ -152,7 +152,7 @@
           <x id="INTERPOLATION" equiv-text="barConfig);  pu"/>
         </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/progressbar/progressbar.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/progressbar/progressbar.ts</context>
           <context context-type="linenumber">41,42</context>
         </context-group>
         <target state="final"><x id="INTERPOLATION" equiv-text="barConfig);  pu"/></target>
@@ -160,7 +160,7 @@
       <trans-unit id="ngb.timepicker.HH" datatype="html" approved="yes">
         <source>HH</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">HH</target>
@@ -168,7 +168,7 @@
       <trans-unit id="ngb.timepicker.hours" datatype="html" approved="yes">
         <source>Hours</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">Giờ</target>
@@ -176,7 +176,7 @@
       <trans-unit id="ngb.timepicker.MM" datatype="html" approved="yes">
         <source>MM</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">MM</target>
@@ -184,7 +184,7 @@
       <trans-unit id="ngb.timepicker.minutes" datatype="html" approved="yes">
         <source>Minutes</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">Phút</target>
@@ -192,7 +192,7 @@
       <trans-unit id="ngb.timepicker.increment-hours" datatype="html" approved="yes">
         <source>Increment hours</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">Tăng giờ</target>
@@ -200,7 +200,7 @@
       <trans-unit id="ngb.timepicker.decrement-hours" datatype="html" approved="yes">
         <source>Decrement hours</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">Giảm giờ</target>
@@ -208,7 +208,7 @@
       <trans-unit id="ngb.timepicker.increment-minutes" datatype="html" approved="yes">
         <source>Increment minutes</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">Tăng phút</target>
@@ -216,7 +216,7 @@
       <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html" approved="yes">
         <source>Decrement minutes</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">Giảm phút</target>
@@ -224,7 +224,7 @@
       <trans-unit id="ngb.timepicker.SS" datatype="html" approved="yes">
         <source>SS</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">SS</target>
@@ -232,7 +232,7 @@
       <trans-unit id="ngb.timepicker.seconds" datatype="html" approved="yes">
         <source>Seconds</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">Giây</target>
@@ -240,7 +240,7 @@
       <trans-unit id="ngb.timepicker.increment-seconds" datatype="html" approved="yes">
         <source>Increment seconds</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">Tăng giây</target>
@@ -248,7 +248,7 @@
       <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html" approved="yes">
         <source>Decrement seconds</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
         <target state="final">Giảm giây</target>
@@ -258,14 +258,14 @@
           <x id="INTERPOLATION"/>
         </source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/timepicker/timepicker-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/timepicker/timepicker-config.ts</context>
           <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.toast.close-aria" datatype="html" approved="yes">
         <source>Close</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.10_@angular+core@21.2.10_@angula_2cd7609efac09eb5e17262dc87217797/node_modules/src/toast/toast-config.ts</context>
+          <context context-type="sourcefile">node_modules/.pnpm/@ng-bootstrap+ng-bootstrap@20.0.0_@angular+common@21.2.17_@angular+core@21.2.17_@angula_c73b7cd709f0477f7304a9bb13ff4be6/node_modules/src/toast/toast-config.ts</context>
           <context context-type="linenumber">54</context>
         </context-group>
         <target state="final">Đóng</target>
@@ -838,7 +838,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">19</context>
         </context-group>
         <target state="final">Tự động tải lại</target>
       </trans-unit>
@@ -854,7 +854,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">26</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.html</context>
@@ -1854,7 +1854,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/input/tags/tags.component.ts</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/common/suggestions-dropdown/suggestions-dropdown.component.html</context>
+          <context context-type="linenumber">28</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/dashboard/widgets/statistics-widget/statistics-widget.component.html</context>
@@ -1990,11 +1994,19 @@
         </context-group>
         <target state="final">Xóa lựa chọn</target>
       </trans-unit>
+      <trans-unit id="8829078752502782653" datatype="html">
+        <source>Dismiss all</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <target state="needs-translation">Dismiss all</target>
+      </trans-unit>
       <trans-unit id="1616102757855967475" datatype="html" approved="yes">
         <source>All</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">39</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
@@ -2002,7 +2014,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
-          <context context-type="linenumber">151</context>
+          <context context-type="linenumber">154</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/filterable-dropdown/filterable-dropdown.component.html</context>
@@ -2034,7 +2046,7 @@
         <source>Filter by</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">59</context>
         </context-group>
         <target state="final">Lọc theo</target>
       </trans-unit>
@@ -2042,11 +2054,11 @@
         <source>All types</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">64</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">209</context>
+          <context context-type="linenumber">215</context>
         </context-group>
         <target state="needs-translation">All types</target>
       </trans-unit>
@@ -2054,11 +2066,11 @@
         <source>All sources</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">73</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">221</context>
+          <context context-type="linenumber">227</context>
         </context-group>
         <target state="needs-translation">All sources</target>
       </trans-unit>
@@ -2066,7 +2078,7 @@
         <source>Reset filters</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">99</context>
+          <context context-type="linenumber">104</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/document-list.component.html</context>
@@ -2082,7 +2094,7 @@
         <source>{VAR_PLURAL, plural, =1 {1 task} other {<x id="INTERPOLATION"/> tasks}}</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">121</context>
+          <context context-type="linenumber">125</context>
         </context-group>
         <target state="needs-translation">{VAR_PLURAL, plural, =1 {1 task} other {<x id="INTERPOLATION"/> tasks}}</target>
       </trans-unit>
@@ -2090,7 +2102,7 @@
         <source>Name</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">143</context>
+          <context context-type="linenumber">147</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
@@ -2202,7 +2214,7 @@
         <source>Created</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">144</context>
+          <context context-type="linenumber">148</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/dates-dropdown/dates-dropdown.component.html</context>
@@ -2234,7 +2246,7 @@
         <source>Results</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">146</context>
+          <context context-type="linenumber">150</context>
         </context-group>
         <target state="final">Kết quả</target>
       </trans-unit>
@@ -2242,7 +2254,7 @@
         <source>Info</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">148</context>
+          <context context-type="linenumber">152</context>
         </context-group>
         <target state="final">Thông tin</target>
       </trans-unit>
@@ -2250,7 +2262,7 @@
         <source>Actions</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">149</context>
+          <context context-type="linenumber">153</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/trash/trash.component.html</context>
@@ -2322,7 +2334,7 @@
         <source>click for full output</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">200</context>
+          <context context-type="linenumber">204</context>
         </context-group>
         <target state="final">nhấp để xem nội dung đầy đủ</target>
       </trans-unit>
@@ -2330,11 +2342,15 @@
         <source>Dismiss</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">213</context>
+          <context context-type="linenumber">217</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">310</context>
+          <context context-type="linenumber">317</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
+          <context context-type="linenumber">351</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
@@ -2350,7 +2366,7 @@
         <source>Open Document</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">218</context>
+          <context context-type="linenumber">222</context>
         </context-group>
         <target state="final">Mở tài liệu</target>
       </trans-unit>
@@ -2358,7 +2374,7 @@
         <source>Result message</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">231</context>
+          <context context-type="linenumber">235</context>
         </context-group>
         <target state="needs-translation">Result message</target>
       </trans-unit>
@@ -2366,7 +2382,7 @@
         <source>Duplicate</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">238</context>
+          <context context-type="linenumber">242</context>
         </context-group>
         <target state="needs-translation">Duplicate</target>
       </trans-unit>
@@ -2374,7 +2390,7 @@
         <source>Open</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">246</context>
+          <context context-type="linenumber">250</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/app-frame/global-search/global-search.component.html</context>
@@ -2406,7 +2422,7 @@
         <source>Input data</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">256</context>
+          <context context-type="linenumber">260</context>
         </context-group>
         <target state="needs-translation">Input data</target>
       </trans-unit>
@@ -2414,7 +2430,7 @@
         <source>Result data</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">262</context>
+          <context context-type="linenumber">266</context>
         </context-group>
         <target state="needs-translation">Result data</target>
       </trans-unit>
@@ -2422,7 +2438,7 @@
         <source>No tasks match the current filters.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.html</context>
-          <context context-type="linenumber">284</context>
+          <context context-type="linenumber">288</context>
         </context-group>
         <target state="needs-translation">No tasks match the current filters.</target>
       </trans-unit>
@@ -2622,7 +2638,7 @@
         <source>Dismiss selected</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">233</context>
+          <context context-type="linenumber">239</context>
         </context-group>
         <target state="final">Bỏ qua các mục đã chọn</target>
       </trans-unit>
@@ -2630,7 +2646,7 @@
         <source>Dismiss visible</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">234</context>
+          <context context-type="linenumber">240</context>
         </context-group>
         <target state="needs-translation">Dismiss visible</target>
       </trans-unit>
@@ -2638,7 +2654,7 @@
         <source>Confirm Dismiss</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">307</context>
+          <context context-type="linenumber">314</context>
         </context-group>
         <target state="needs-translation">Confirm Dismiss</target>
       </trans-unit>
@@ -2646,7 +2662,7 @@
         <source>Dismiss <x id="PH" equiv-text="tasks.size"/> tasks?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">308</context>
+          <context context-type="linenumber">315</context>
         </context-group>
         <target state="needs-translation">Dismiss <x id="PH" equiv-text="tasks.size"/> tasks?</target>
       </trans-unit>
@@ -2654,7 +2670,11 @@
         <source>Error dismissing tasks</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">319</context>
+          <context context-type="linenumber">326</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
+          <context context-type="linenumber">360</context>
         </context-group>
         <target state="final">Lỗi khi bỏ qua các tác vụ</target>
       </trans-unit>
@@ -2662,15 +2682,31 @@
         <source>Error dismissing task</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">331</context>
+          <context context-type="linenumber">338</context>
         </context-group>
         <target state="final">Lỗi khi bỏ qua tác vụ</target>
+      </trans-unit>
+      <trans-unit id="1323591410517879795" datatype="html">
+        <source>Confirm Dismiss All</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
+          <context context-type="linenumber">348</context>
+        </context-group>
+        <target state="needs-translation">Confirm Dismiss All</target>
+      </trans-unit>
+      <trans-unit id="4157200209636243740" datatype="html">
+        <source>Dismiss all <x id="PH" equiv-text="this.totalTasks"/> tasks?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
+          <context context-type="linenumber">349</context>
+        </context-group>
+        <target state="needs-translation">Dismiss all <x id="PH" equiv-text="this.totalTasks"/> tasks?</target>
       </trans-unit>
       <trans-unit id="8149502458056418229" datatype="html">
         <source>Success. New document id <x id="PH" equiv-text="documentId"/> created</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">377</context>
+          <context context-type="linenumber">408</context>
         </context-group>
         <target state="needs-translation">Success. New document id <x id="PH" equiv-text="documentId"/> created</target>
       </trans-unit>
@@ -2678,11 +2714,11 @@
         <source>Duplicate of document #<x id="PH" equiv-text="duplicateOf"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">387</context>
+          <context context-type="linenumber">418</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/tasks/tasks.component.ts</context>
-          <context context-type="linenumber">421</context>
+          <context context-type="linenumber">452</context>
         </context-group>
         <target state="needs-translation">Duplicate of document #<x id="PH" equiv-text="duplicateOf"/></target>
       </trans-unit>
@@ -3525,6 +3561,10 @@
           <context context-type="linenumber">208</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/common/suggestions-dropdown/suggestions-dropdown.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/dashboard/widgets/statistics-widget/statistics-widget.component.html</context>
           <context context-type="linenumber">107</context>
         </context-group>
@@ -3986,7 +4026,7 @@
         <source>{VAR_PLURAL, plural, =1 {One page} other {<x id="INTERPOLATION"/> pages}}</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">28</context>
         </context-group>
         <target state="needs-translation">{VAR_PLURAL, plural, =1 {One page} other {<x id="INTERPOLATION"/> pages}}</target>
       </trans-unit>
@@ -3994,7 +4034,7 @@
         <source>Use metadata from:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">38</context>
         </context-group>
         <target state="final">Lấy metadata từ:</target>
       </trans-unit>
@@ -4002,7 +4042,7 @@
         <source>Regenerate all metadata</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">40</context>
         </context-group>
         <target state="final">Tạo lại tất cả siêu dữ liệu (metadata)</target>
       </trans-unit>
@@ -4010,7 +4050,7 @@
         <source>Try to include archive version in merge for non-PDF files</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
-          <context context-type="linenumber">44</context>
+          <context context-type="linenumber">48</context>
         </context-group>
         <target state="final">Cố gắng bao gồm phiên bản lưu trữ hợp nhất cho các tệp không PDF</target>
       </trans-unit>
@@ -4018,7 +4058,7 @@
         <source>Delete original documents after successful merge</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">52</context>
         </context-group>
         <target state="final">Xóa tài liệu gốc sau khi hợp nhất thành công</target>
       </trans-unit>
@@ -4026,7 +4066,7 @@
         <source>Note that only PDFs will be included.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
-          <context context-type="linenumber">51</context>
+          <context context-type="linenumber">55</context>
         </context-group>
         <target state="final">Lưu ý rằng chỉ bao gồm các tệp PDF.</target>
       </trans-unit>
@@ -4154,7 +4194,7 @@
         <source>Saved field &quot;<x id="PH" equiv-text="newField.name"/>&quot;.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-dropdown/custom-fields-dropdown.component.ts</context>
-          <context context-type="linenumber">130</context>
+          <context context-type="linenumber">129</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/manage/document-attributes/custom-fields/custom-fields.component.ts</context>
@@ -4168,7 +4208,7 @@
         <source>Error saving field.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-dropdown/custom-fields-dropdown.component.ts</context>
-          <context context-type="linenumber">139</context>
+          <context context-type="linenumber">138</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/manage/document-attributes/custom-fields/custom-fields.component.ts</context>
@@ -4256,11 +4296,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
-          <context context-type="linenumber">94</context>
+          <context context-type="linenumber">96</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
-          <context context-type="linenumber">100</context>
+          <context context-type="linenumber">102</context>
         </context-group>
         <target state="final">Đúng</target>
       </trans-unit>
@@ -4272,11 +4312,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
-          <context context-type="linenumber">95</context>
+          <context context-type="linenumber">97</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
-          <context context-type="linenumber">101</context>
+          <context context-type="linenumber">103</context>
         </context-group>
         <target state="final">Sai</target>
       </trans-unit>
@@ -4284,11 +4324,11 @@
         <source>Search docs...</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">70</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
-          <context context-type="linenumber">117</context>
+          <context context-type="linenumber">119</context>
         </context-group>
         <target state="final">Tìm kiếm tài liệu...</target>
       </trans-unit>
@@ -4296,7 +4336,7 @@
         <source>Any</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
-          <context context-type="linenumber">149</context>
+          <context context-type="linenumber">152</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/filterable-dropdown/filterable-dropdown.component.html</context>
@@ -4308,7 +4348,7 @@
         <source>Not</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
-          <context context-type="linenumber">154</context>
+          <context context-type="linenumber">157</context>
         </context-group>
         <target state="final">Không</target>
       </trans-unit>
@@ -4316,7 +4356,7 @@
         <source>Add query</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
-          <context context-type="linenumber">173</context>
+          <context context-type="linenumber">176</context>
         </context-group>
         <target state="final">Thêm yêu cầu tìm kiếm</target>
       </trans-unit>
@@ -4324,7 +4364,7 @@
         <source>Add expression</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/custom-fields-query-dropdown/custom-fields-query-dropdown.component.html</context>
-          <context context-type="linenumber">176</context>
+          <context context-type="linenumber">179</context>
         </context-group>
         <target state="final">Thêm biểu thức</target>
       </trans-unit>
@@ -5076,23 +5116,23 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">197</context>
+          <context context-type="linenumber">199</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">231</context>
+          <context context-type="linenumber">233</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">265</context>
+          <context context-type="linenumber">267</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">275</context>
+          <context context-type="linenumber">277</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">313</context>
+          <context context-type="linenumber">315</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/toast/toast.component.html</context>
@@ -6583,11 +6623,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/input/select/select.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/input/tags/tags.component.html</context>
-          <context context-type="linenumber">65</context>
+          <context context-type="linenumber">66</context>
         </context-group>
         <target state="final">Đề xuất:</target>
       </trans-unit>
@@ -6599,7 +6639,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/input/select/select.component.ts</context>
-          <context context-type="linenumber">172</context>
+          <context context-type="linenumber">176</context>
         </context-group>
         <target state="final">
      Lọc tài liệu với cái này
@@ -6718,7 +6758,7 @@
         <source>Private</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/input/select/select.component.ts</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">72</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/tag/tag.component.html</context>
@@ -6742,7 +6782,7 @@
         <source>No items found</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/input/select/select.component.ts</context>
-          <context context-type="linenumber">106</context>
+          <context context-type="linenumber">110</context>
         </context-group>
         <target state="final">Không tìm thấy mục nào</target>
       </trans-unit>
@@ -6758,7 +6798,7 @@
         <source>Add tag</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/input/tags/tags.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
         <target state="final">Thêm nhãn</target>
       </trans-unit>
@@ -6766,7 +6806,7 @@
         <source>Remove tag</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/input/tags/tags.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">24</context>
         </context-group>
         <target state="final">Gỡ bỏ nhãn</target>
       </trans-unit>
@@ -6774,7 +6814,7 @@
         <source>Filter documents with these Tags</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/input/tags/tags.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">56</context>
         </context-group>
         <target state="final">Lọc tài liệu theo các nhãn này</target>
       </trans-unit>
@@ -7104,7 +7144,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">332</context>
+          <context context-type="linenumber">334</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/manage/mail/mail.component.html</context>
@@ -7770,23 +7810,17 @@
         </context-group>
         <target state="needs-translation">No novel suggestions</target>
       </trans-unit>
-      <trans-unit id="187187500641108332" datatype="html">
-        <source>
-          <x id="INTERPOLATION" equiv-text="{{ tag }}"/>
-        </source>
+      <trans-unit id="4369111787961525769" datatype="html" approved="yes">
+        <source>Document Types</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/suggestions-dropdown/suggestions-dropdown.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">34</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/common/suggestions-dropdown/suggestions-dropdown.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="sourcefile">src/app/components/dashboard/widgets/statistics-widget/statistics-widget.component.html</context>
+          <context context-type="linenumber">120</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/common/suggestions-dropdown/suggestions-dropdown.component.html</context>
-          <context context-type="linenumber">42</context>
-        </context-group>
-        <target state="needs-translation"><x id="INTERPOLATION" equiv-text="{{ tag }}"/></target>
+        <target state="final">Loại Tài liệu</target>
       </trans-unit>
       <trans-unit id="9180110319941008393" datatype="html" approved="yes">
         <source>Environment</source>
@@ -7912,7 +7946,7 @@
         <source>Recent Task Activity <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;small text-muted fw-light&quot;&gt;"/>(<x id="INTERPOLATION" equiv-text="{{status.tasks.summary.days}}"/> days)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">145</context>
+          <context context-type="linenumber">147</context>
         </context-group>
         <target state="needs-translation">Recent Task Activity <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;small text-muted fw-light&quot;&gt;"/>(<x id="INTERPOLATION" equiv-text="{{status.tasks.summary.days}}"/> days)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
       </trans-unit>
@@ -7920,7 +7954,7 @@
         <source>Total</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">150</context>
+          <context context-type="linenumber">152</context>
         </context-group>
         <target state="needs-translation">Total</target>
       </trans-unit>
@@ -7928,7 +7962,7 @@
         <source>Successful</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">154</context>
+          <context context-type="linenumber">156</context>
         </context-group>
         <target state="needs-translation">Successful</target>
       </trans-unit>
@@ -7936,7 +7970,7 @@
         <source>Failed</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">158</context>
+          <context context-type="linenumber">160</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/share-link-bundle.ts</context>
@@ -7948,7 +7982,7 @@
         <source>Pending</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">162</context>
+          <context context-type="linenumber">164</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/share-link-bundle.ts</context>
@@ -7960,7 +7994,7 @@
         <source>No recent tasks</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">167</context>
+          <context context-type="linenumber">169</context>
         </context-group>
         <target state="needs-translation">No recent tasks</target>
       </trans-unit>
@@ -7968,7 +8002,7 @@
         <source>Health</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">178</context>
+          <context context-type="linenumber">180</context>
         </context-group>
         <target state="final">Trạng thái hệ thống (Health)</target>
       </trans-unit>
@@ -7976,7 +8010,7 @@
         <source>Search Index</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">182</context>
+          <context context-type="linenumber">184</context>
         </context-group>
         <target state="final">Chỉ mục tìm kiếm</target>
       </trans-unit>
@@ -7984,7 +8018,7 @@
         <source>Last Updated</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">195</context>
+          <context context-type="linenumber">197</context>
         </context-group>
         <target state="final">Cập nhật lần cuối</target>
       </trans-unit>
@@ -7992,7 +8026,7 @@
         <source>Classifier</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">200</context>
+          <context context-type="linenumber">202</context>
         </context-group>
         <target state="final">Bộ phân loại (Classifier)</target>
       </trans-unit>
@@ -8000,15 +8034,15 @@
         <source>Run Task</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">222</context>
+          <context context-type="linenumber">224</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">256</context>
+          <context context-type="linenumber">258</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">304</context>
+          <context context-type="linenumber">306</context>
         </context-group>
         <target state="final">Thực thi tác vụ</target>
       </trans-unit>
@@ -8016,7 +8050,7 @@
         <source>Last Trained</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">229</context>
+          <context context-type="linenumber">231</context>
         </context-group>
         <target state="final">Được đào tạo cuối cùng</target>
       </trans-unit>
@@ -8024,7 +8058,7 @@
         <source>Sanity Checker</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">234</context>
+          <context context-type="linenumber">236</context>
         </context-group>
         <target state="final">Kiểm tra tính toàn vẹn (Sanity)</target>
       </trans-unit>
@@ -8032,11 +8066,11 @@
         <source>Last Run</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">263</context>
+          <context context-type="linenumber">265</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">311</context>
+          <context context-type="linenumber">313</context>
         </context-group>
         <target state="final">Lần chạy cuối cùng</target>
       </trans-unit>
@@ -8044,7 +8078,7 @@
         <source>WebSocket Connection</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">268</context>
+          <context context-type="linenumber">270</context>
         </context-group>
         <target state="final">Kết nối WebSocket</target>
       </trans-unit>
@@ -8052,7 +8086,7 @@
         <source>OK</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">272</context>
+          <context context-type="linenumber">274</context>
         </context-group>
         <target state="final">OK</target>
       </trans-unit>
@@ -8060,7 +8094,7 @@
         <source>AI Index</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/system-status-dialog/system-status-dialog.component.html</context>
-          <context context-type="linenumber">281</context>
+          <context context-type="linenumber">283</context>
         </context-group>
         <target state="needs-translation">AI Index</target>
       </trans-unit>
@@ -8269,14 +8303,6 @@
           <context context-type="linenumber">43</context>
         </context-group>
         <target state="final">Số ASN hiện tại</target>
-      </trans-unit>
-      <trans-unit id="4369111787961525769" datatype="html" approved="yes">
-        <source>Document Types</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/components/dashboard/widgets/statistics-widget/statistics-widget.component.html</context>
-          <context context-type="linenumber">120</context>
-        </context-group>
-        <target state="final">Loại Tài liệu</target>
       </trans-unit>
       <trans-unit id="5421255270838137624" datatype="html" approved="yes">
         <source>Storage Paths</source>
@@ -10146,7 +10172,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">104</context>
+          <context context-type="linenumber">105</context>
         </context-group>
         <target state="final">Trang</target>
       </trans-unit>
@@ -11935,7 +11961,7 @@
         <source>Output Type</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">89</context>
+          <context context-type="linenumber">90</context>
         </context-group>
         <target state="final">Loại đầu ra</target>
       </trans-unit>
@@ -11943,7 +11969,7 @@
         <source>Language</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">97</context>
+          <context context-type="linenumber">98</context>
         </context-group>
         <target state="final">Ngôn ngữ</target>
       </trans-unit>
@@ -11951,7 +11977,7 @@
         <source>Mode</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">111</context>
+          <context context-type="linenumber">112</context>
         </context-group>
         <target state="final">Cách thức</target>
       </trans-unit>
@@ -11959,7 +11985,7 @@
         <source>Archive File Generation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">119</context>
+          <context context-type="linenumber">120</context>
         </context-group>
         <target state="needs-translation">Archive File Generation</target>
       </trans-unit>
@@ -11967,7 +11993,7 @@
         <source>Image DPI</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">127</context>
+          <context context-type="linenumber">128</context>
         </context-group>
         <target state="final">Hình ảnh DPI</target>
       </trans-unit>
@@ -11975,7 +12001,7 @@
         <source>Clean</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">134</context>
+          <context context-type="linenumber">135</context>
         </context-group>
         <target state="final">Làm sạch (Clean)</target>
       </trans-unit>
@@ -11983,7 +12009,7 @@
         <source>Deskew</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">142</context>
+          <context context-type="linenumber">143</context>
         </context-group>
         <target state="final">Chỉnh thẳng (Deskew)</target>
       </trans-unit>
@@ -11991,7 +12017,7 @@
         <source>Rotate Pages</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">149</context>
+          <context context-type="linenumber">150</context>
         </context-group>
         <target state="final">Xoay trang</target>
       </trans-unit>
@@ -11999,7 +12025,7 @@
         <source>Rotate Pages Threshold</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">156</context>
+          <context context-type="linenumber">157</context>
         </context-group>
         <target state="final">Ngưỡng xoay trang</target>
       </trans-unit>
@@ -12007,7 +12033,7 @@
         <source>Max Image Pixels</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">163</context>
+          <context context-type="linenumber">164</context>
         </context-group>
         <target state="final">Pixels hình ảnh tối đa</target>
       </trans-unit>
@@ -12015,7 +12041,7 @@
         <source>Color Conversion Strategy</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">170</context>
+          <context context-type="linenumber">171</context>
         </context-group>
         <target state="final">Chiến lược chuyển đổi màu</target>
       </trans-unit>
@@ -12023,7 +12049,7 @@
         <source>OCR Arguments</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">178</context>
+          <context context-type="linenumber">179</context>
         </context-group>
         <target state="final">Đối số OCR</target>
       </trans-unit>
@@ -12031,7 +12057,7 @@
         <source>Application Logo</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">185</context>
+          <context context-type="linenumber">186</context>
         </context-group>
         <target state="final">Logo ứng dụng</target>
       </trans-unit>
@@ -12039,7 +12065,7 @@
         <source>Application Title</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">192</context>
+          <context context-type="linenumber">193</context>
         </context-group>
         <target state="final">Tiêu đề ứng dụng</target>
       </trans-unit>
@@ -12047,7 +12073,7 @@
         <source>Enable Barcodes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">199</context>
+          <context context-type="linenumber">200</context>
         </context-group>
         <target state="final">Bật mã vạch</target>
       </trans-unit>
@@ -12055,7 +12081,7 @@
         <source>Enable TIFF Support</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">206</context>
+          <context context-type="linenumber">207</context>
         </context-group>
         <target state="final">Bật hỗ trợ TIFF</target>
       </trans-unit>
@@ -12063,7 +12089,7 @@
         <source>Barcode String</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">213</context>
+          <context context-type="linenumber">214</context>
         </context-group>
         <target state="final">Chuỗi mã vạch</target>
       </trans-unit>
@@ -12071,7 +12097,7 @@
         <source>Retain Split Pages</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">220</context>
+          <context context-type="linenumber">221</context>
         </context-group>
         <target state="final">Giữ lại các trang đã tách</target>
       </trans-unit>
@@ -12079,7 +12105,7 @@
         <source>Enable ASN</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">227</context>
+          <context context-type="linenumber">228</context>
         </context-group>
         <target state="final">Bật ASN</target>
       </trans-unit>
@@ -12087,7 +12113,7 @@
         <source>ASN Prefix</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">234</context>
+          <context context-type="linenumber">235</context>
         </context-group>
         <target state="final">Tiền tố ASN</target>
       </trans-unit>
@@ -12095,7 +12121,7 @@
         <source>Upscale</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">241</context>
+          <context context-type="linenumber">242</context>
         </context-group>
         <target state="final">Nâng cao độ phân giải (Upscale)</target>
       </trans-unit>
@@ -12103,7 +12129,7 @@
         <source>DPI</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">248</context>
+          <context context-type="linenumber">249</context>
         </context-group>
         <target state="final">DPI</target>
       </trans-unit>
@@ -12111,7 +12137,7 @@
         <source>Max Pages</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">255</context>
+          <context context-type="linenumber">256</context>
         </context-group>
         <target state="final">Trang tối đa</target>
       </trans-unit>
@@ -12119,7 +12145,7 @@
         <source>Enable Tag Detection</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">262</context>
+          <context context-type="linenumber">263</context>
         </context-group>
         <target state="final">Bật tự động nhận diện nhãn</target>
       </trans-unit>
@@ -12127,7 +12153,7 @@
         <source>Tag Mapping</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">269</context>
+          <context context-type="linenumber">270</context>
         </context-group>
         <target state="final">Ánh xạ nhãn</target>
       </trans-unit>
@@ -12135,7 +12161,7 @@
         <source>Split on Tag Barcodes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">276</context>
+          <context context-type="linenumber">277</context>
         </context-group>
         <target state="needs-translation">Split on Tag Barcodes</target>
       </trans-unit>
@@ -12143,7 +12169,7 @@
         <source>AI Enabled</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">283</context>
+          <context context-type="linenumber">284</context>
         </context-group>
         <target state="needs-translation">AI Enabled</target>
       </trans-unit>
@@ -12151,7 +12177,7 @@
         <source>Consider privacy implications when enabling AI features, especially if using a remote model.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">287</context>
+          <context context-type="linenumber">288</context>
         </context-group>
         <target state="needs-translation">Consider privacy implications when enabling AI features, especially if using a remote model.</target>
       </trans-unit>
@@ -12159,7 +12185,7 @@
         <source>LLM Embedding Backend</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">291</context>
+          <context context-type="linenumber">292</context>
         </context-group>
         <target state="needs-translation">LLM Embedding Backend</target>
       </trans-unit>
@@ -12167,15 +12193,39 @@
         <source>LLM Embedding Model</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">299</context>
+          <context context-type="linenumber">300</context>
         </context-group>
         <target state="needs-translation">LLM Embedding Model</target>
+      </trans-unit>
+      <trans-unit id="3554114880473286122" datatype="html">
+        <source>LLM Embedding Endpoint</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
+          <context context-type="linenumber">307</context>
+        </context-group>
+        <target state="needs-translation">LLM Embedding Endpoint</target>
+      </trans-unit>
+      <trans-unit id="1044242175651289991" datatype="html">
+        <source>LLM Embedding Chunk Size</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
+          <context context-type="linenumber">314</context>
+        </context-group>
+        <target state="needs-translation">LLM Embedding Chunk Size</target>
+      </trans-unit>
+      <trans-unit id="7218245223139363113" datatype="html">
+        <source>LLM Context Size</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
+          <context context-type="linenumber">321</context>
+        </context-group>
+        <target state="needs-translation">LLM Context Size</target>
       </trans-unit>
       <trans-unit id="4234495692726214397" datatype="html">
         <source>LLM Backend</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">306</context>
+          <context context-type="linenumber">328</context>
         </context-group>
         <target state="needs-translation">LLM Backend</target>
       </trans-unit>
@@ -12183,7 +12233,7 @@
         <source>LLM Model</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">314</context>
+          <context context-type="linenumber">336</context>
         </context-group>
         <target state="needs-translation">LLM Model</target>
       </trans-unit>
@@ -12191,7 +12241,7 @@
         <source>LLM API Key</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">321</context>
+          <context context-type="linenumber">343</context>
         </context-group>
         <target state="needs-translation">LLM API Key</target>
       </trans-unit>
@@ -12199,9 +12249,41 @@
         <source>LLM Endpoint</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
-          <context context-type="linenumber">328</context>
+          <context context-type="linenumber">350</context>
         </context-group>
         <target state="needs-translation">LLM Endpoint</target>
+      </trans-unit>
+      <trans-unit id="6572826277249350975" datatype="html">
+        <source>LLM Output Language</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
+          <context context-type="linenumber">357</context>
+        </context-group>
+        <target state="needs-translation">LLM Output Language</target>
+      </trans-unit>
+      <trans-unit id="3284403507172415792" datatype="html">
+        <source>Language to use for generated AI suggestions. When unset, AI suggestions use the user&apos;s display language if explicitly set.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
+          <context context-type="linenumber">361</context>
+        </context-group>
+        <target state="needs-translation">Language to use for generated AI suggestions. When unset, AI suggestions use the user's display language if explicitly set.</target>
+      </trans-unit>
+      <trans-unit id="4493921125434706859" datatype="html">
+        <source>LLM Request Timeout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
+          <context context-type="linenumber">365</context>
+        </context-group>
+        <target state="needs-translation">LLM Request Timeout</target>
+      </trans-unit>
+      <trans-unit id="483994032066441287" datatype="html">
+        <source>Timeout in seconds for LLM requests.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/paperless-config.ts</context>
+          <context context-type="linenumber">369</context>
+        </context-group>
+        <target state="needs-translation">Timeout in seconds for LLM requests.</target>
       </trans-unit>
       <trans-unit id="9155387182259025015" datatype="html">
         <source>Processing</source>
